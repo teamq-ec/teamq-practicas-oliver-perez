@@ -26,8 +26,6 @@ class AuthServiceProvider extends ServiceProvider
         $this->registerPolicies();
 
         Gate::define('is-asesor', [UsuarioPolicy::class, 'isAsesor']);
-        Gate::define('ejecutd_user', function ($user) {
-            return $user->rol_id === 1;
-        });
+        Gate::define('ejecutd_user',[UsuarioPolicy::class, 'isAdministrador']);
     }
 }
