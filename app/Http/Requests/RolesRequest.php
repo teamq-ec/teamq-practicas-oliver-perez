@@ -22,7 +22,7 @@ class RolesRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'rol_usuario'=> 'required|string',
+            'nombre'=> 'required|string',
         ];
     }
 
