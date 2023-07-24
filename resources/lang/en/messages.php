@@ -1,0 +1,21 @@
+return [
+    'invalid_credentials' => 'Invalid credentials',
+    'unauthorized' => 'You are not authorized to perform this action',
+    'user_not_found' => 'User not found',
+    'no_profile_image' => 'The user does not have a profile image',
+    'profile_image_updated' => 'Profile image updated',
+    'no_image_provided' => 'No image was provided',
+    'profile_image_deleted' => 'Profile image deleted',
+    'unauthorized' => 'You are not authorized to perform this action',
+    'roles_not_found' => 'No roles were found',
+    'role_not_found' => 'Role not found',
+    'role_registered' => 'Role registered successfully',
+    'role_updated' => 'Role updated successfully',
+    'role_deleted' => 'Role deleted successfully',
+    'unauthorized' => 'You are not authorized to perform this action',
+    'users_not_found' => 'No users were found',
+    'user_not_found' => 'User not found',
+    'user_registered' => 'User registered successfully',
+    'user_updated' => 'User updated successfully',
+    'user_deleted' => 'User deleted successfully'
+];
